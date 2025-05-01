@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: echo"Hello Abhi, You have run your first Action in Github 😊"
+      - run: echo "Hello Abhi, You have run your first Action in Github 😊"
 
       - name: Checkout
         uses: actions/checkout@v4.2.2
